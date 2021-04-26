@@ -1,0 +1,36 @@
+0192204sadhon
+sadhonkumar@yahoo.com
+
+jQuery(document).ready(function(){
+
+jQuery('.toggler-wrapper').click(function(){
+
+jQuery('.feature-content').slideToggle(100);
+
+
+});
+  jQuery('.toggler-wrapper').click(function(){
+
+jQuery('#fancy_icon-152-1119').toggleClass('toogle-icon');
+
+
+});
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+
+tippy('[data-tippy-content]', {
+ animation: 'shift-away', 
+});
+
+.toogle-icon{
+  transform: rotate(180deg);
+
+
+}
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/tippy.js@6/animations/shift-away.css"
+/>
